@@ -5,8 +5,8 @@
 @import url("animate.compat.css");
 @import url("custom.css");
 
-$primary: #ED1B2D;
-$red: #ff0000;
+$primary: #AFE3EA;
+$red: #AFE3EA;
 
 #slideshow {
   height: 100vh;
@@ -31,7 +31,7 @@ $red: #ff0000;
 }
 
 .logocolor {
-  color: #dd4000;
+  color: #AFE3EA;
   position:relative
 }
 
@@ -54,7 +54,7 @@ $red: #ff0000;
 }
 
 .logolink {
-  font-family: Lobster Two;
+  font-family: Marcellus;
   color: #666;
   letter-spacing: 1px;
   text-transform: lowercase;
@@ -81,8 +81,8 @@ $red: #ff0000;
 }
 
 .logotype {
-  font-family: Lobster Two;
-  color: #dd4000;
+  font-family: Marcellus;
+  color: #AFE3EA;
   letter-spacing: 2px;
   text-transform: lowercase;
   font-weight: 400;
@@ -766,36 +766,36 @@ footer{background-color: #000; padding:.1rem 0rem;  }
     // }
 
 
-.grad{
-background: #d80700;
-background: -moz-linear-gradient(left, #d80700 0%, #ff0000 35%, #ff0000 66%, #d60300 98%);
-background: -webkit-linear-gradient(left, #d80700 0%,#ff0000 35%,#ff0000 66%,#d60300 98%);
-background: linear-gradient(to right, #d80700 0%,#ff0000 35%,#ff0000 66%,#d60300 98%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d80700', endColorstr='#d60300',GradientType=1 );
-}
-.grad:hover{
-background: #820a00;
-background: -moz-linear-gradient(left, #820a00 0%, #f41000 26%, #f41000 70%, #890400 100%);
-background: -webkit-linear-gradient(left, #820a00 0%,#f41000 26%,#f41000 70%,#890400 100%);
-background: linear-gradient(to right, #820a00 0%,#f41000 26%,#f41000 70%,#890400 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#820a00', endColorstr='#890400',GradientType=1 );
-}
+// .grad{
+// background: #d80700;
+// background: -moz-linear-gradient(left, #d80700 0%, #ff0000 35%, #ff0000 66%, #d60300 98%);
+// background: -webkit-linear-gradient(left, #d80700 0%,#ff0000 35%,#ff0000 66%,#d60300 98%);
+// background: linear-gradient(to right, #d80700 0%,#ff0000 35%,#ff0000 66%,#d60300 98%);
+// filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d80700', endColorstr='#d60300',GradientType=1 );
+// }
+// .grad:hover{
+// background: #820a00;
+// background: -moz-linear-gradient(left, #820a00 0%, #f41000 26%, #f41000 70%, #890400 100%);
+// background: -webkit-linear-gradient(left, #820a00 0%,#f41000 26%,#f41000 70%,#890400 100%);
+// background: linear-gradient(to right, #820a00 0%,#f41000 26%,#f41000 70%,#890400 100%);
+// filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#820a00', endColorstr='#890400',GradientType=1 );
+// }
 
-.grad-dark{
-background: #3a3a3a;
-background: -moz-linear-gradient(top, #3a3a3a 8%, #1b1b1b 12%, #0a0a0a 47%, #010101 50%, #0d0d0d 74%, #3a3a3a 86%, #050505 88%, #3a3a3a 93%, #3a3a3a 96%, #0c0c0c 99%);
-background: -webkit-linear-gradient(top, #3a3a3a 8%,#1b1b1b 12%,#0a0a0a 47%,#010101 50%,#0d0d0d 74%,#3a3a3a 86%,#050505 88%,#3a3a3a 93%,#3a3a3a 96%,#0c0c0c 99%);
-background: linear-gradient(to bottom, #3a3a3a 8%,#1b1b1b 12%,#0a0a0a 47%,#010101 50%,#0d0d0d 74%,#3a3a3a 86%,#050505 88%,#3a3a3a 93%,#3a3a3a 96%,#0c0c0c 99%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a3a3a', endColorstr='#0c0c0c',GradientType=0 );
-}
+// .grad-dark{
+// background: #3a3a3a;
+// background: -moz-linear-gradient(top, #3a3a3a 8%, #1b1b1b 12%, #0a0a0a 47%, #010101 50%, #0d0d0d 74%, #3a3a3a 86%, #050505 88%, #3a3a3a 93%, #3a3a3a 96%, #0c0c0c 99%);
+// background: -webkit-linear-gradient(top, #3a3a3a 8%,#1b1b1b 12%,#0a0a0a 47%,#010101 50%,#0d0d0d 74%,#3a3a3a 86%,#050505 88%,#3a3a3a 93%,#3a3a3a 96%,#0c0c0c 99%);
+// background: linear-gradient(to bottom, #3a3a3a 8%,#1b1b1b 12%,#0a0a0a 47%,#010101 50%,#0d0d0d 74%,#3a3a3a 86%,#050505 88%,#3a3a3a 93%,#3a3a3a 96%,#0c0c0c 99%);
+// filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a3a3a', endColorstr='#0c0c0c',GradientType=0 );
+// }
 
-.grad-dark:hover{
-background: #1b1b1b;
-background: -moz-linear-gradient(top, #1b1b1b 4%, #303030 8%, #000000 16%, #0a0a0a 47%, #010101 50%, #0d0d0d 68%, #3a3a3a 88%, #050505 93%, #3a3a3a 96%, #3a3a3a 96%, #0c0c0c 99%, #3a3a3a 100%, #3a3a3a 100%);
-background: -webkit-linear-gradient(top, #1b1b1b 4%,#303030 8%,#000000 16%,#0a0a0a 47%,#010101 50%,#0d0d0d 68%,#3a3a3a 88%,#050505 93%,#3a3a3a 96%,#3a3a3a 96%,#0c0c0c 99%,#3a3a3a 100%,#3a3a3a 100%);
-background: linear-gradient(to bottom, #1b1b1b 4%,#303030 8%,#000000 16%,#0a0a0a 47%,#010101 50%,#0d0d0d 68%,#3a3a3a 88%,#050505 93%,#3a3a3a 96%,#3a3a3a 96%,#0c0c0c 99%,#3a3a3a 100%,#3a3a3a 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b1b1b', endColorstr='#3a3a3a',GradientType=0 );
-}
+// .grad-dark:hover{
+// background: #1b1b1b;
+// background: -moz-linear-gradient(top, #1b1b1b 4%, #303030 8%, #000000 16%, #0a0a0a 47%, #010101 50%, #0d0d0d 68%, #3a3a3a 88%, #050505 93%, #3a3a3a 96%, #3a3a3a 96%, #0c0c0c 99%, #3a3a3a 100%, #3a3a3a 100%);
+// background: -webkit-linear-gradient(top, #1b1b1b 4%,#303030 8%,#000000 16%,#0a0a0a 47%,#010101 50%,#0d0d0d 68%,#3a3a3a 88%,#050505 93%,#3a3a3a 96%,#3a3a3a 96%,#0c0c0c 99%,#3a3a3a 100%,#3a3a3a 100%);
+// background: linear-gradient(to bottom, #1b1b1b 4%,#303030 8%,#000000 16%,#0a0a0a 47%,#010101 50%,#0d0d0d 68%,#3a3a3a 88%,#050505 93%,#3a3a3a 96%,#3a3a3a 96%,#0c0c0c 99%,#3a3a3a 100%,#3a3a3a 100%);
+// filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b1b1b', endColorstr='#3a3a3a',GradientType=0 );
+// }
 
  body.light .has-app{display: block !important;}
  body.light .no-app{display: none !important;}
@@ -818,7 +818,7 @@ body.dark .no-app{display:block !important;}
 
 
 
-h1,h2,h3,h4,.h1,.h2,.h3,.h4, #menu, .header .menu-icon:before, input.special, .intro:after, .intro:before, .scrolldown, label, .font, .gatsby-image-wrapper, .full-width-image:after{font-family: Hammersmith One,lucida grande,lucida sans unicode,Tahoma,Sans-Serif; font-style: normal;}
+h1,h2,h3,h4,.h1,.h2,.h3,.h4, #menu, .header .menu-icon:before, input.special, .intro:after, .intro:before, .scrolldown, label, .font, .gatsby-image-wrapper, .full-width-image:after{font-family: Marcellus,lucida grande,lucida sans unicode,Tahoma,Sans-Serif; font-style: normal;}
 
 #menu{font-size:1.2rem;}
 

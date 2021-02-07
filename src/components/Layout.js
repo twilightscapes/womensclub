@@ -7,8 +7,11 @@ import Navbar from '../components/Navbar2'
 import PopContact from '../components/PopContact'
 import config from '../../config'
 // import 'typeface-pt-sans'
-import "fontsource-lobster-two"
-import "fontsource-hammersmith-one"
+// import "fontsource-lobster-two"
+// import "fontsource-hammersmith-one"
+
+import "typeface-marcellus"
+
 import "../css/index.scss"
 // import Consent from '../components/Consent'
 

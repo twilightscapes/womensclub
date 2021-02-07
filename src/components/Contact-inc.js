@@ -152,8 +152,8 @@ Become a Member, Today!
                
 <div className="special grad"  style={{color:'#fff', textDecoration:'none', display:'flex', justifyContent:'center', position:'relative', width:'230px', margin:'1rem auto 0 auto', padding:'0 1rem 0px 1rem',}}>
                 
-                <input type="submit" value="Send Message" className=" grad" style={{background:'transparent', border:'none', color:'#fff', cursor:'pointer', width:'90%', float:'left',}} />
-                <FaEnvelope style={{position: 'relative', top: '5px', right: '-5px', color: '#fff', fontSize: '120%',}} />
+                <input type="submit" value="Join Now!" className=" grad" style={{background:'transparent', border:'none', color:'#fff', textShadow:'0 1px 1px #222', cursor:'pointer', width:'90%', float:'left',}} />
+    
                 
                 </div>
                 

@@ -49,7 +49,7 @@ const Footer = class extends React.Component {
 
 
 
-<div style={{textAlign: 'center', margin: '0 0 1rem 0', justifyContent: 'center', fontSize: ''}}>Copyright &copy; {(new Date().getFullYear())} Women's Club of Gulfport - All Rights Reserved</div>
+<div style={{textAlign: 'center', margin: '0 0 1rem 0', justifyContent: 'center', fontSize: ''}}>Copyright &copy; {(new Date().getFullYear())} Women's Club of Gulfport</div>
         </div>
         
       </footer>

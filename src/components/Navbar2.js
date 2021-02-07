@@ -92,8 +92,8 @@ input[type=checkbox] {
     width: 100%;
     top: 22px;
     right: 22px;
-    height: 42px;
-    width: 42px;
+    height: 52px;
+    width: 52px;
 }
 .spinner {
     transition: all 0.3s;

@@ -10,7 +10,7 @@ import styled from "styled-components"
 // import { FiCornerRightDown } from 'react-icons/fi'
 import Navbar from '../components/Navbar2'
 import Contact from '../components/Contact-inc'
-import TouchUp from '../components/TouchUp'
+// import TouchUp from '../components/TouchUp'
 
 // import { ThemeToggler } from 'gatsby-plugin-dark-mode'
 
@@ -62,14 +62,14 @@ const CustomBox = styled.div`
 
 
 
-.intro:before{
-	content: "";
-position:absolute;
-display: flex;
-align-items: center;
-justify-content: center;
-font-size:380%; color:#111; text-shadow: 12px 7px 15px 12px black;
-}
+// .intro:before{
+// 	content: "";
+// position:absolute;
+// display: flex;
+// align-items: center;
+// justify-content: center;
+// font-size:380%; color:#111; text-shadow: 12px 7px 15px 12px black;
+// }
 
 
 
@@ -233,7 +233,7 @@ const HomePage = () => (
 
 
 <Navbar />
-<TouchUp />
+{/* <TouchUp /> */}
 
   
 <div className="container intro" style={{position:'', top:'2vh', height:'', display:'', overflowY:'', overflowX:'', background:'transparent'}}>
@@ -355,13 +355,13 @@ Our Mission
 
 
 
-
+{/* 
 <section className="child" style={{position:'relative', height:''}}>
 
 
 
 
-</section>
+</section> */}
 
 {/* <div className="themer" style={{display:'block', position:'fixed', right:'40px', top:'20px', zIndex:'2'}}><ThemeToggler>
         {({ theme, toggleTheme }) => (

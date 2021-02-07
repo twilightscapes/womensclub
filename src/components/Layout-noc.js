@@ -4,8 +4,9 @@ import { Helmet } from 'react-helmet'
 // import Navbar from '../components/Navbar'
 // import Contact from '../components/Contact'
 // import 'typeface-pt-sans';
-import "fontsource-lobster-two"
-import "fontsource-hammersmith-one"
+// import "fontsource-lobster-two"
+// import "fontsource-hammersmith-one"
+import "typeface-marcellus"
 import "../css/index.scss";
 // import ScrollAnimation from 'react-animate-on-scroll';
 import config from '../../config'
