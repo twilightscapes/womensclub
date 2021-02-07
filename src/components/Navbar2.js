@@ -245,7 +245,7 @@ const Navbar2 = class extends React.Component {
     
 
 
-    {/* <div className="themer" style={{display:'block', right:'140px', top:'20px'}}><ThemeToggler>
+    <div className="themer" style={{display:'block', right:'140px', top:'20px'}}><ThemeToggler>
         {({ theme, toggleTheme }) => (
           <div className="themeSlide">
             
@@ -257,7 +257,7 @@ const Navbar2 = class extends React.Component {
             
           <label htmlFor="themeSlide" style={{color:'#222', textAlign:'center', padding:'0',}}><WiDaySunny /></label></div>
         )}
-      </ThemeToggler></div> */}
+      </ThemeToggler></div>
 
 
 
