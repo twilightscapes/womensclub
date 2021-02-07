@@ -130,7 +130,7 @@ body.light .speech p span{color:#fff;}
 
 
 // body.dark, body.dark .container{background-color:#fff !important;}
-body.dark .container, .outer, .intro, .split{background-color:#eee !important;}
+// body.dark .container, .outer, .intro, .split{background-color:#eee !important;}
 
 
 
@@ -236,7 +236,7 @@ const HomePage = () => (
 <TouchUp />
 
   
-<div className="container2 intro" style={{position:'', top:'2vh', height:'', display:'', overflowY:'', overflowX:'', background:'transparent'}}>
+<div className="container intro" style={{position:'', top:'2vh', height:'', display:'', overflowY:'', overflowX:'', background:'transparent'}}>
 
 	
 {/*  Panel 1 */}

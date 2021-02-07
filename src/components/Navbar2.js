@@ -158,7 +158,7 @@ header [aria-current] { background:none !important;}
 #logo{max-width:250px !important;}
 header {text-align:left !important;}
 
-header #logo{margin-left:25vw}
+header #logo{margin-left:15vw}
 
 }
 `

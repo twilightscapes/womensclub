@@ -804,8 +804,8 @@ body.dark, body.dark .container {
   color: #f9f9fa;
   box-shadow: inherit; }
 
-body.light .container {
-  background-color: #dedede; }
+/* body.light .container {
+  background-color: #dedede; } */
 
 body.dark .outer .innerpanel {
   background-color: #222; }
