@@ -263,16 +263,16 @@ const HomePage = () => (
 
 <Fade {...properties}>
 
-<div className="each-slide">
+{/* <div className="each-slide">
 
-    {/* <div style={{position:'absolute', zIndex:'50', width:'', textAlign:'center', border:'0px solid green', marginLeft:'15%', top:'150px'}}>
+    <div style={{position:'absolute', zIndex:'50', width:'', textAlign:'center', border:'0px solid green', marginLeft:'15%', top:'150px'}}>
       <h3 style={{color:'#fff', fontSize:'30px'}}>The Rolex Collection</h3>
       <a href="" style={{color:'#fff'}}>View All Watches</a>
       
-      </div> */}
+      </div>
 
 <a href="/rolex/" style={{color:'#fff'}}><Image alt="test" filename="rolex-banner1.jpg" /></a>
-  </div>
+  </div> */}
 
 
 <div className="each-slide">
