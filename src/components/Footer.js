@@ -30,7 +30,7 @@ const Footer = class extends React.Component {
  
 
 
-        <ul className="socialmenu" style={{textAlign:'center', justifyContent:'center', margin:'3rem 0'}}>
+        {/* <ul className="socialmenu" style={{textAlign:'center', justifyContent:'center', margin:'3rem 0'}}>
   <li className="socialtext"><h3>I&apos;m<br />Social</h3></li>
 <li><a className="social"  href="https://facebook.com/twilightscapes" alt="Facebook" title="Facebook"><FaFacebookSquare /><span>Facebook</span></a></li>
 <li style={{display: '',}}><a className="social" href="https://www.linkedin.com/in/toddlambert" alt="LinkIn" title="LinkedIn"><FaLinkedin /><span>LinkedIn</span></a></li>
@@ -39,7 +39,7 @@ const Footer = class extends React.Component {
 <li style={{display: 'none',}}><a className="social" href="https://www.pinterest.com/twilightscapes/" alt="Pinterest" title="Pinterest"><FaPinterestSquare /><span>Pinterest</span></a></li>
 
 <li><a className="social" href="https://www.youtube.com/channel/UCccK2S9xrcLnCR3dTuUwsxQ" alt="YouTube" title="YouTube"><FaYoutubeSquare /><span>YouTube</span></a></li>
-</ul>
+</ul> */}
 
 
 
@@ -49,7 +49,7 @@ const Footer = class extends React.Component {
 
 
 
-<div style={{textAlign: 'center', margin: '0 0 1rem 0', justifyContent: 'center', fontSize: ''}}>Copyright &copy; {(new Date().getFullYear())} Todd Lambert - Built with Gatsby on Netlify</div>
+<div style={{textAlign: 'center', margin: '0 0 1rem 0', justifyContent: 'center', fontSize: ''}}>Copyright &copy; {(new Date().getFullYear())} Women's Club of Gulfport - All Rights Reserved</div>
         </div>
         
       </footer>
