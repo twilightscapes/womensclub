@@ -20,7 +20,7 @@ const Footer = class extends React.Component {
 
   <canvas id="canvas"></canvas> 
   
-      <footer className="footer" style={{position:'relative', bottom:'0', width:'100vw'}}>
+      <footer className="footer" style={{position:'relative', bottom:'0', width:'100vw', background:'#222'}}>
         <div className="content">
           
 

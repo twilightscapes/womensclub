@@ -8,13 +8,13 @@ import Image from '../components/Image'
 import styled from "styled-components"
 // import { MdPlayArrow } from 'react-icons/md'
 // import { FiCornerRightDown } from 'react-icons/fi'
-// import Navbar from '../components/Navbar2'
+import Navbar from '../components/Navbar2'
 import Contact from '../components/Contact-inc'
 import TouchUp from '../components/TouchUp'
 
-import { ThemeToggler } from 'gatsby-plugin-dark-mode'
+// import { ThemeToggler } from 'gatsby-plugin-dark-mode'
 
-import { WiDaySunny } from 'react-icons/wi';
+// import { WiDaySunny } from 'react-icons/wi';
 
 const CustomBox = styled.div`
 
@@ -227,12 +227,12 @@ const HomePage = () => (
   
   
 
-  <div className="logolink" style={{textAlign:'center', background:'#AFE3EA', position:'', top:'8vh', zIndex:'0', width:'98vw', display:'',}}><a title="Logo - Back To Home" href="/" style={{fontSize:'7vw',  textDecoration:'none'}}>
+  {/* <div className="logolink" style={{textAlign:'center', background:'#AFE3EA', position:'', top:'8vh', zIndex:'0', width:'100vw', display:'',}}><a title="Logo - Back To Home" href="/" style={{fontSize:'7vw',  textDecoration:'none'}}>
    <div style={{maxWidth:'400px', margin:'0 auto 0 auto'}}><Image className="" alt="Todd Lambert Night photos" filename="womensclub-logo.png" /></div>
-</a></div>
+</a></div> */}
 
 
-{/* <Navbar /> */}
+<Navbar />
 <TouchUp />
 
   
@@ -363,7 +363,7 @@ Our Mission
 
 </section>
 
-<div className="themer" style={{display:'block', position:'fixed', right:'40px', top:'20px', zIndex:'2'}}><ThemeToggler>
+{/* <div className="themer" style={{display:'block', position:'fixed', right:'40px', top:'20px', zIndex:'2'}}><ThemeToggler>
         {({ theme, toggleTheme }) => (
           <div className="themeSlide">
             
@@ -375,7 +375,7 @@ Our Mission
             
           <label htmlFor="themeSlide" style={{color:'#222', textAlign:'center', padding:'0',}}><WiDaySunny /></label></div>
         )}
-      </ThemeToggler></div>
+      </ThemeToggler></div> */}
 
 
 <Footer />

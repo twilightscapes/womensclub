@@ -355,7 +355,7 @@ div.column {
   animation: fadeIn 3s; }
 
 footer {
-  background-color: #222;
+  background-color: #999;
   padding: 0.1rem 0rem;
   animation: fadeIn 3s; }
 
@@ -633,16 +633,25 @@ div.column {
 .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
 .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
   top: 0; }
-
+/* 
 [aria-current] {
   background-color: #666;
   padding: .5rem;
-  cursor: default; }
+  cursor: default; } */
 
-[aria-current].logolink {
+[aria-current].logolinker {
   background-color: none;
   padding: inherit;
   cursor: default; }
+
+
+  [aria-current] .logolinker {
+    background-color: none !important;
+    padding: inherit;
+    cursor: default; 
+  }
+
+
 
 /* 48em = 768px */
 @media (min-width: 48rem) {
