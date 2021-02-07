@@ -12,6 +12,9 @@ import Navbar from '../components/Navbar2'
 import Contact from '../components/Contact-inc'
 // import TouchUp from '../components/TouchUp'
 
+import { Fade } from 'react-slideshow-image'
+import 'react-slideshow-image/dist/styles.css'
+
 // import { ThemeToggler } from 'gatsby-plugin-dark-mode'
 
 // import { WiDaySunny } from 'react-icons/wi';
@@ -218,12 +221,33 @@ body.light .speech p span{color:#fff;}
 `
 
 
+  const properties = {
+    duration: 4000,
+    transitionDuration: 500,
+    infinite: true,
+    indicators: true,
+    easing: 'easeIn',
+    arrows: true,
 
+    // prevArrow: <div style={{width: "30px", marginRight: "-30px"}}><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#fff"><path d="M242 180.6v-138L0 256l242 213.4V331.2h270V180.6z"/></svg></div>,
+    // nextArrow: <div style={{width: "30px", marginLeft: "-30px"}}><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#fff"><path d="M512 256L270 42.6v138.2H0v150.6h270v138z"/></svg></div>
+  }
 
 
 const HomePage = () => (
+
+
+
+
+
+
+
+
+
+  
+
   <Layout>
-   <CustomBox>
+   <CustomBox className="slideshow">
   
   
 
@@ -235,8 +259,67 @@ const HomePage = () => (
 <Navbar />
 {/* <TouchUp /> */}
 
+
+
+<Fade {...properties}>
+
+<div className="each-slide">
+
+    {/* <div style={{position:'absolute', zIndex:'50', width:'', textAlign:'center', border:'0px solid green', marginLeft:'15%', top:'150px'}}>
+      <h3 style={{color:'#fff', fontSize:'30px'}}>The Rolex Collection</h3>
+      <a href="" style={{color:'#fff'}}>View All Watches</a>
+      
+      </div> */}
+
+<a href="/rolex/" style={{color:'#fff'}}><Image alt="test" filename="rolex-banner1.jpg" /></a>
+  </div>
+
+
+<div className="each-slide">
+  <a href="" style={{color:'#fff'}}><Image alt="test" filename="img1.jpg" /></a>
+  </div>
+
+  <div className="each-slide">
+  <a href="" style={{color:'#fff'}}><Image alt="test" filename="img2.jpg" /></a>
+  </div>
+
+
+  <div className="each-slide">
+  <a href="" style={{color:'#fff'}}><Image alt="test" filename="img3.jpg" /></a>
+  </div>
+
+  <div className="each-slide">
+  <a href="" style={{color:'#fff'}}><Image alt="test" filename="img4.jpg" /></a>
+  </div>
+
+  <div className="each-slide">
+  <a href="" style={{color:'#fff'}}><Image alt="test" filename="img5.jpg" /></a>
+  </div>
+
+
+
+{/* <div className="each-slide">
+  <div>
+    <span>Slide 3</span>
+    <Image alt="test" filename="slide-3.jpg" />
+  </div>
+</div> */}
+</Fade>
+
+
+
+
+
   
 <div className="container intro" style={{position:'', top:'2vh', height:'', display:'', overflowY:'', overflowX:'', background:'transparent'}}>
+
+
+
+
+
+
+
+
 
 	
 {/*  Panel 1 */}
@@ -291,13 +374,18 @@ Conceptual Photography
 
 {/*  Panel 2 */}
 
-<section className="child" style={{position:'relative', height:'100vh', overflow:'', display:''}}>
+
+
+
+<section className="child" style={{position:'relative', height:'', display:'flex'}}>
+  
 <div style={{width:''}}>
   <blockquote style={{padding:'1rem 5vw'}}>
 
-  <h3 className="logotype1" style={{textAlign:'left', margin:'5vh', fontSize:'250%',}}>
-Welcome
+  <h3 className="logotype1" style={{textAlign:'left', margin:'', fontSize:'250%',}}>
+Welcome!
 </h3>
+
 
 <p>The Women's Club of Gulfport works to support the arts, preserve natural resources, promote education, encourage healthy lifestyles, stress civic involvement, and work toward world peace and understanding.
 </p>
@@ -306,7 +394,7 @@ Welcome
 <h4>President's Project for 2020 - 2022:</h4> 
 <strong>Focus on Education</strong> 
 
-<h3 className="logotype1" style={{textAlign:'left', margin:'5vh', fontSize:'250%',}}>
+<h3 className="logotype1" style={{textAlign:'left', margin:'4vh 0 0 0', fontSize:'250%',}}>
 Our Mission
 </h3>
 
@@ -316,15 +404,8 @@ Our Mission
 
 <p>We provide our members with model programs and projects that encompass the major issues of our time including women's health, preservation of natural resources, literacy, abuse prevention, arts in the community and more. We strive to follow the ideals and goals of the General Federation of Women's Clubs.</p>
   </blockquote>
-
-
-
-    
-    
-
-
-
 </div>
+
 
 
 
@@ -348,9 +429,9 @@ Our Mission
 
 
 
-<section className="child" style={{position:'relative', height:'auto', zIndex:'', paddingTop:'',}}>
+{/* <section className="child" style={{position:'relative', height:'auto', zIndex:'', paddingTop:'',}}>
   <div className="outer" style={{margin:'0 0'}}><Contact /></div> 
- </section>
+ </section> */}
 
 
 
