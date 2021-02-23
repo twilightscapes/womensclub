@@ -18,7 +18,7 @@ import Layout from '../../components/Layout'
 // import { FiCornerRightDown } from 'react-icons/fi'
 // import { FaTimesCircle } from 'react-icons/fa'
 // import Intro3 from '../components/Intro3'
-import AboutPanels from '../../components/AboutPanels'
+// import AboutPanels from '../../components/AboutPanels'
 
 // import { FaAccessibleIcon, FaOdnoklassniki, FaBlind } from 'react-icons/fa'
 
@@ -43,7 +43,7 @@ const About = () => (
      <Layout>
      <CustomBox>
   
-  <AboutPanels />
+  {/* <AboutPanels /> */}
     
   </CustomBox>
   </Layout>

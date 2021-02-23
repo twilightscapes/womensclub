@@ -1,5 +1,5 @@
 import React from 'react'
-import Layout from '../components/Layout-noc'
+import Layout from '../components/Layout'
 import Footer from '../components/Footer'
 // import { Link } from 'gatsby'
 import ScrollAnimation from 'react-animate-on-scroll'
@@ -256,7 +256,7 @@ const HomePage = () => (
 </a></div> */}
 
 
-<Navbar />
+{/* <Navbar /> */}
 {/* <TouchUp /> */}
 
 
@@ -276,24 +276,24 @@ const HomePage = () => (
 
 
 <div className="each-slide">
-  <a href="" style={{color:'#fff'}}><Image alt="test" filename="img1.jpg" /></a>
+  <a href="" style={{color:'#fff'}}><Image alt="test" filename="istockphoto-1061255718-2048x2048.jpg" /></a>
   </div>
 
-  <div className="each-slide">
+  {/* <div className="each-slide">
   <a href="" style={{color:'#fff'}}><Image alt="test" filename="img2.jpg" /></a>
-  </div>
+  </div> */}
 
 
   <div className="each-slide">
-  <a href="" style={{color:'#fff'}}><Image alt="test" filename="img3.jpg" /></a>
+  <a href="" style={{color:'#fff'}}><Image alt="test" filename="istockphoto-472892210-2048x2048.jpg" /></a>
   </div>
 
   <div className="each-slide">
-  <a href="" style={{color:'#fff'}}><Image alt="test" filename="img4.jpg" /></a>
+  <a href="" style={{color:'#fff'}}><Image alt="test" filename="istockphoto-1251547064-2048x2048.jpg" /></a>
   </div>
 
   <div className="each-slide">
-  <a href="" style={{color:'#fff'}}><Image alt="test" filename="img5.jpg" /></a>
+  <a href="" style={{color:'#fff'}}><Image alt="test" filename="istockphoto-1219394237-2048x2048.jpg" /></a>
   </div>
 
 
@@ -459,7 +459,7 @@ Our Mission
       </ThemeToggler></div> */}
 
 
-<Footer />
+{/* <Footer /> */}
 
 </div>{/* End Container2 */}
 
